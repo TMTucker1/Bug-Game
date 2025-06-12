@@ -46,10 +46,17 @@ body {
     }
 
     .bug {
-      font-size: 2em;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: inline-block;
       cursor: pointer;
-      transition: transform 0.1s ease-in-out;
+      border: 2px solid #222;
     }
+
+    .bug.green { background: #3cb371; }
+    .bug.blue { background: #4682b4; }
+    .bug.red { background: #e74c3c; }
 
     .bug:hover {
       transform: scale(1.2);
